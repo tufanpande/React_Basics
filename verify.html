@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+  <title>verify email</title>
+  <style>
+    html, body{
+      height: 100%;
+      background-color: rgb(248, 248,248);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="h-100 d-flex justify-content-center align-self-center align-items-center py-4 w-100 m-auto">
+  
+    <div class="card" style="width: 25rem">
+        <div class="card-body">
+          <form class="m-auto">
+            <div class="d-flex align-items-center justify-content-center">
+              <img class="mb-2 text-center"
+               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///9WPXxKLHRUO3tNMHZTOXrLxtRaQ3+0rMJDIXC6schNMXZJKnOupb9vXI7V0N56Z5dsVo1QNXhGJnLw7vO/t8zZ1eH6+fulmbfo5e3j3+iYjK3Bus1gSISGd59pVYmOgKackLBzYZLKw9VkToeBcJ2NfqUkcF3bAAAEKUlEQVR4nO3c6ZKiMBiFYRIWWwktBAVFbZfWuf9LHOy2irgQGIsQPuY8vylr3mnWEOI4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+pvMiCbmRr2y0vZKtJKgTvhhBpvFzYTroTfKahzzrk+lwchtNYnESnebdIma5sl90Eoey+76eRn3LbcVdR6poJLMnJAM45y6m5QMZ8Zv1gnHODfSX5aTkw903+Ba/40W7hyjMcyNzU6qG4CE0Hlvvpl83CYw+FLi8sFu4MXOmfeJG9wCLtIZD5J3uFUQ87aSm1d008GLpdeyAya4VxH4dheUn8tlZ4Nn25/+XNrBVOeir8QCEKUfhWoRRa3Atl2/+fYRbKYzbXCLazaLObilaVwyz0lm1+INsw3tw40MKW17B8G4ZNjbQLy8ZN00AI9ULH+W4YraNf6ASeNnEEhc5MjL3QOemeUoZfmD96/qVMN2Y3/MJP6T9gu6/Z/YN7ojkSCRQ+7YKuLzm/e7O00gyIUCz8IdSB0ExzriFbyFLlzi7XDNvRLXTdaptcczKlW8jUVxLn+kTChSJosRHpQr6tNtKM2xEuVDbK2SgLebWXLkZ5LlWH6781D4mUC6ttvjSvQOgWKvdtC907HrKFMqkeMja693RUC71J9XSRaUfcCBQ+PT2VjxZSmUWy0A+bDr/wkjy6bLbK4+FCc8dGo7BB0DRxk3jh4iDGPSKcndPGaVW0Cx1nHfGGcX3qheVd90q/o9IvLE822svFGAqdQrejDr9wFj352M7vx0sD0mNtex4+8jgP93cTgTR3psMvfH1f6vrpSb2xqZ9tTLWQXafiK4nH2gcowoV389Trp3JSLmSpMp64rx2wolyoTuLe1O2mpAvdXfWcP6u7QSVdyKTyoF93SaRdKKpXF0XdgCLtQl4Vruvu3GgXKnvpuu72m3Shu682G+deKg/VZuM800yVL362Y/wbhhfl18Z4xVfH9R2n9g0i2UI/jdXAjPCd98snYCHj4O7H6j8xGn7hq1GM5cMohrOun4E5/MJW4vo3iOMoXJF+y91CpJtCO4bCzcjnCM8n+m9RqRdmf5oW1iBdmM8S3vip7UALm74KyhdFsIo93uJD22EW+kmskeyYKz0etltVY5iF7Gn6xR33X75cHGhhh1BoUNLT9/itvmU04tLTmgpB8z/FkNpxh26l9pZvWRpeJOomtLemmW7qcnesLjLUy9If6oz+3n30sZtKq0u27cxfEW0uolTaGj8SXd/y2onGL4nC3vI7v/KJ2ZON7SX3nOt7TZOJ3OpydDcFM7ajuunBdt2PPG6cx/weKeyeRhUzqV8U4S1+GttcTvBBHp15KLta6dO9fuot47ntqgdF9JW4006I3emwtb72LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwPv+Ar0tWKsmpflzAAAAAElFTkSuQmCC"
+               alt="logo"
+               width="32"
+               height="32"
+               />
+            </div>
+            <h1 class="h-4 mb-3 text-center fw-normal">Verify Email</h1>
+            <div class="mb-2">
+              <label class="form-label">Email address</label>
+              <input type="email" class="form-control"
+              value="tufanpande@gmail.com"
+               placeholder="john@example.com" required disabled>
+            </div>
+            <div class="mb-2">
+              <label class="form-label">New password</label>
+              <input type="text" class="form-control"
+               required>
+            </div>
+            <div class="mb-2">
+              <label class="form-label">Token</label>
+              <input class="form-control"
+               placeholder="123456" required >
+            </div>
+            <button type="submit" class="btn btn-primary">Change Password</button>
+            <button type="reset" class="btn btn-danger">Reset</button>
+          </form>
+          <hr />
+          <a class=" mb-2 text-center text-decoration-none"href="forget-password.html">Go Back</a>
+        </div>
+        
+          
+    </div>
+  </div>
+
+</body>
+</html>
