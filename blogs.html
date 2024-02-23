@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Login Page</title>
+  <style>
+    html, body{
+      height: 100%;
+      background-color: rgb(248, 248,248);
+    }
+  </style>
+</head>
+<body>
+
+<div class="h-100 d-flex w-100 m-auto">
+  
+    <div class="container mb-5">
+        <!-- nav bar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="./images/EV.png.png" 
+                        alt="Logo" 
+                        width="30" 
+                        height="24" 
+                        class="d-inline-block align-text-top">
+                        Blog
+                      </a>
+                    </div>
+                  </nav>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Tech</a></li>
+                      <li><a class="dropdown-item" href="#">Home Appliances</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <button type="button" class="m-2 btn btn-secondary">
+                    <i class="fa fa-bookmark"></i> <span class="badge text-bg-secondary">4</span>
+                </button>
+                
+              </div>
+            </div>
+        </nav>
+        
+         
+        <div class="d-flex w-100 m-auto min-vh-100">
+            <div class="container mb-5">
+               <!-- Blogs list-->  
+               <div class="row row-cols-1 row-cols-md-3 g-4 mb-2">
+                    <div class="col">
+                         <div class="card h-100">
+                            <img src="https://img.freepik.com/free-photo/textured-background-white-tone_53876-128610.jpg" class="card-img-top img-fluid" alt="lake"/>
+                            <div class="card-body">
+                                <h5 class="card-title placeholder-glow">
+                                    <span class="placeholder col-6"></span>
+                                </h5>
+                                <p class="card-text placeholder-glow">
+                                    <span class="placeholder col-7"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-4"></span>
+                                    <span class="placeholder col-6"></span>
+                                    <span class="placeholder col-8"></span>
+                                </p>
+                                <p class="card-text placeholder-glow">
+                                    <a 
+                                    class="btn btn-primary disabled placeholder col-6 placeholder"
+                                    href="/blog-detail">
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col">
+                                        <small class="text-body-secondary placeholder-glow">
+                                            <span class="placeholder col-8"></span>
+                                        </small>
+                                    </div>
+                                    <div class="col text-end">
+                                        <i class="btn fa fa-bookmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                           <img src="https://img.freepik.com/free-photo/textured-background-white-tone_53876-128610.jpg" class="card-img-top img-fluid" alt="lake"/>
+                           <div class="card-body">
+                               <h5 class="card-title placeholder-glow">
+                                   <span class="placeholder col-6"></span>
+                               </h5>
+                               <p class="card-text placeholder-glow">
+                                   <span class="placeholder col-7"></span>
+                                   <span class="placeholder col-4"></span>
+                                   <span class="placeholder col-4"></span>
+                                   <span class="placeholder col-6"></span>
+                                   <span class="placeholder col-8"></span>
+                               </p>
+                               <p class="card-text placeholder-glow">
+                                   <a 
+                                   class="btn btn-primary disabled placeholder col-6 placeholder"
+                                   href="/blog-detail">
+                                   </a>
+                               </p>
+                           </div>
+                           <div class="card-footer">
+                               <div class="row">
+                                   <div class="col">
+                                       <small class="text-body-secondary placeholder-glow">
+                                           <span class="placeholder col-8"></span>
+                                       </small>
+                                   </div>
+                                   <div class="col text-end">
+                                       <i class="btn fa fa-bookmark"></i>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col">
+                    <div class="card h-100">
+                       <img src="https://img.freepik.com/free-photo/textured-background-white-tone_53876-128610.jpg" class="card-img-top img-fluid" alt="lake"/>
+                       <div class="card-body">
+                           <h5 class="card-title placeholder-glow">
+                               <span class="placeholder col-6"></span>
+                           </h5>
+                           <p class="card-text placeholder-glow">
+                               <span class="placeholder col-7"></span>
+                               <span class="placeholder col-4"></span>
+                               <span class="placeholder col-4"></span>
+                               <span class="placeholder col-6"></span>
+                               <span class="placeholder col-8"></span>
+                           </p>
+                           <p class="card-text placeholder-glow">
+                               <a 
+                               class="btn btn-primary disabled placeholder col-6 placeholder"
+                               href="/blog-detail">
+                               </a>
+                           </p>
+                       </div>
+                       <div class="card-footer">
+                           <div class="row">
+                               <div class="col">
+                                   <small class="text-body-secondary placeholder-glow">
+                                       <span class="placeholder col-8"></span>
+                                   </small>
+                               </div>
+                               <div class="col text-end">
+                                   <i class="btn fa fa-bookmark"></i>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                           <img src="https://img.freepik.com/free-photo/textured-background-white-tone_53876-128610.jpg" class="card-img-top img-fluid" alt="lake"/>
+                           <div class="card-body">
+                               <h5 class="card-title ">Card title
+                               </h5>
+                               <p class="card-text">
+                                   This is a wider card with supporting text below as a natural 
+                                   lead-in to additional content . This card has ever longer content than the first to show that equal height action.
+                               </p>
+                               <p class="card-text">
+                                   <a 
+                                   class="text-decoration-none"
+                                   href="/blog-detail">continue reading>>
+                                   </a>
+                               </p>
+                           </div>
+                           <div class="card-footer">
+                               <div class="row">
+                                   <div class="col">
+                                       <small class="text-body-secondary ">
+                                           3 mins ago
+                                       </small>
+                                   </div>
+                                   <div class="col text-end">
+                                       <i class="btn fa fa-bookmark"></i>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+            
+        </div>
+          <!--Footer-->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+              <a 
+              href="/" 
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+              </a>
+              <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Blog, Inc</span>
+            </div>
+        
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+              <li class="ms-3"><a class="text-body-secondary" 
+                href="#"><i class="fa fa-twitter"></i></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa fa-instagram"></i></a></li>
+              <li class="ms-3"><a class="text-body-secondary" href="#"><i class="fa fa-github"></i></a></li>
+            </ul>
+        </footer>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" 
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
